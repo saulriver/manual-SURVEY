@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta name="description" content="Web Survey Manual.">
+    <title>SURVEY</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!--w3 school css-->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!--imagen ico de pestaña-->
+    <link rel="icon" href="imagenes/siscos.png">
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        body {
+            cursor: crosshair
+        }
+    </style>
+</head>
+
+<body class="app sidebar-mini rtl" data-spy="scroll">
+    <!-- Navbar-->
+    <header class="app-header"><a class="app-header__logo" href="index.html">SURVEY</a>
+        <!-- Sidebar toggle button-->
+        <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+        <!-- Navbar Right Menu-->
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="imagenes/survey.png" alt="User Image">
+            <div>
+
+            </div>
+        </div>
+
+
+        <ul class="app-menu">
+            <!--menu glosario-->
+            <li><a class="app-menu__item" href="index.html"><span class="app-menu__label ajustar">&nbsp; Glosario</span></a></li>
+            <!--menu objetivos-->
+            <li><a class="app-menu__item" href="objetivo.html"><span class="app-menu__label ajustar">&nbsp; Objetivo</span></a></li>
+            <!--menu software encuesta-->
+            <li><a class="app-menu__item" href="software_encuesta.html"><span class="app-menu__label ajustar">1.&nbsp; Software encuesta</span></a></li>
+            <!--menu de login-->
+            <li><a class="app-menu__item" href="login.html"><span class="app-menu__label ajustar">2.&nbsp; Login</span></a></li>
+            <!--menu de pantalla inicial-->
+            <li><a class="app-menu__item" href="pantalla_inicial.html"><span class="app-menu__label ajustar">3.&nbsp; Pantalla inicial</span></a></li>
+            <!--menu de cambiar contraseña-->
+            <li><a class="app-menu__item" href="cambiar_contrasena.html"><span class="app-menu__label ajustar">4.&nbsp; Cambiar contraseña</span></a></li>
+            <!--menu de cerrar sesión-->
+            <li><a class="app-menu__item" href="cerrar_sesion.html"><span class="app-menu__label ajustar">5.&nbsp; Cerrar sesión</span></a></li>
+            <!--menu de usuario manager-->
+            <li><a class="app-menu__item" href="usuario_manager.html"><span class="app-menu__label ajustar">6.&nbsp; Usuario manager</span></a></li>
+            <!--menu de cuentas-->
+            <li class="carpetas"><a class="app-menu__item" href="usuario_manager_cuentas.html"><span class="app-menu__label ajustar">6.1&nbsp; Cuentas</span></a></li>
+            <!--menu de agregar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_manager_cuentas.html#cuentasagregar" onclick="myFunction()"><span class="app-menu__label ajustar">6.1.1&nbsp; Agregar</span></a></li>
+            <!--menu de editar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_manager_cuentas.html#cuentaseditar" onclick="myFunction()"><span class="app-menu__label ajustar">6.1.2&nbsp; Editar</span></a></li>
+            <!--menu de eliminar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_manager_cuentas.html#cuentaseliminar" onclick="myFunction()"><span class="app-menu__label ajustar">6.1.3&nbsp; Eliminar</span></a></li>
+            <!--menu de respuestas-->
+            <li class="carpetas"><a class="app-menu__item" href="usuario_manager_respuestas.html"><span class="app-menu__label ajustar">6.2&nbsp; Respuestas</span></a></li>
+            <!--menu de agregar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_manager_respuestas.html#respuestasagregar" onclick="myFunction()"><span class="app-menu__label ajustar">6.2.1&nbsp; Agregar</span></a></li>
+            <!--menu de editar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_manager_respuestas.html#respuestaseditar" onclick="myFunction()"><span class="app-menu__label ajustar">6.2.2&nbsp; Editar</span></a></li>
+            <!--menu de eliminar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_manager_respuestas.html#respuestaseliminar" onclick="myFunction()"><span class="app-menu__label ajustar">6.2.3&nbsp; Eliminar</span></a></li>
+            <!--menu de usuario administrador-->
+            <li><a class="app-menu__item" href="usuario_admin.html"><span class="app-menu__label ajustar">7.&nbsp; Usuario administrador</span></a></li>
+            <!--menu de departamentos-->
+            <li class="carpetas"><a class="app-menu__item" href="usuario_admin_departamento.html"><span class="app-menu__label ajustar">7.1&nbsp; Departamento</span></a></li>
+            <!--menu de agregar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_admin_departamento.html#departamentoagregar" onclick="myFunction()"><span class="app-menu__label ajustar">7.1.1&nbsp; Agregar</span></a></li>
+            <!--menu de editar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_admin_departamento.html#departamentoeditar" onclick="myFunction()"><span class="app-menu__label ajustar">7.1.2&nbsp; Editar</span></a></li>
+            <!--menu de eliminar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_admin_departamento.html#departamentoeliminar" onclick="myFunction()"><span class="app-menu__label ajustar">7.1.3&nbsp; Eliminar</span></a></li>
+            <!--menu de localidades-->
+            <li class="carpetas"><a class="app-menu__item active" href="usuario_admin_localidades.html"><span class="app-menu__label ajustar">7.2&nbsp; Localidades</span></a></li>
+            <!--menu de agregar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="#localidadesagregar" onclick="myFunction()"><span class="app-menu__label ajustar">7.2.1&nbsp; Agregar</span></a></li>
+            <!--menu de editar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="#localidadesagregar" onclick="myFunction()"><span class="app-menu__label ajustar">7.2.2&nbsp; Editar</span></a></li>
+            <!--menu de eliminar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="#localidadesagregar" onclick="myFunction()"><span class="app-menu__label ajustar">7.2.3&nbsp; Eliminar</span></a></li>
+            <!--menu de oficinas-->
+            <li class="carpetas"><a class="app-menu__item" href="usuario_admin_oficinas.html"><span class="app-menu__label ajustar">7.3&nbsp; Oficinas</span></a></li>
+            <!--menu de agregar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_admin_oficinas.html#oficinasagregar" onclick="myFunction()"><span class="app-menu__label ajustar">7.3.1&nbsp; Agregar</span></a></li>
+            <!--menu de editar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_admin_oficinas.html#oficinaseditar" onclick="myFunction()"><span class="app-menu__label ajustar">7.3.2&nbsp; Editar</span></a></li>
+            <!--menu de eliminar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_admin_oficinas.html#oficinaseliminar" onclick="myFunction()"><span class="app-menu__label ajustar">7.3.3&nbsp; Eliminar</span></a></li>
+            <!--menu de reportes-->
+            <li class="carpetas"><a class="app-menu__item" href="usuario_admin_reportes.html"><span class="app-menu__label ajustar">7.4&nbsp; Reportes</span></a></li>
+            <!--menu de usuarios-->
+            <li class="carpetas"><a class="app-menu__item" href="usuario_admin_usuarios.html"><span class="app-menu__label ajustar">7.5&nbsp; Usuarios</span></a></li>
+            <!--menu de agregar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_admin_usuarios.html#usuariosagregar" onclick="myFunction()"><span class="app-menu__label ajustar">7.5.1&nbsp; Agregar</span></a></li>
+            <!--menu de editar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_admin_usuarios.html#usuarioseditar" onclick="myFunction()"><span class="app-menu__label ajustar">7.5.2&nbsp; Editar</span></a></li>
+            <!--menu de eliminar-->
+            <li class="carpetas2"><a class="nav-link app-menu__item" href="usuario_admin_usuarios.html#usuarioseliminar" onclick="myFunction()"><span class="app-menu__label ajustar">7.5.3&nbsp; Eliminar</span></a></li>
+            <!--menu de usuario operador-->
+            <li><a class="app-menu__item" href="usuario_operador.html"><span class="app-menu__label ajustar">8.&nbsp; Usuario operador</span></a></li>
+            <!--menu de inicio-->
+            <li><a class="app-menu__item" href="inicio.html"><span class="app-menu__label ajustar">9.&nbsp; Inicio</span></a></li>
+        </ul>
+    </aside>
+
+    <!--container fluid-->
+    <div class="container-fluid">
+        <!--row flex-->
+        <div class="row flex-lg-nowrap">
+            <!--menu derecho-->
+
+            <!--fin menu derecho-->
+            <!--main-->
+            <main class="app-content" role="main">
+                <div class="app-title">
+                    <div class="bs-component">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><i class="fa fa-home fa-lg" style="color:black"></i></li>
+                            <li class="breadcrumb-item"><a href="usuario_admin.html"><i class="app-menu__icon fa fa-file-text fa-lg fa-fw"></i>Usuario administrador</a></li>
+                            <li class="breadcrumb-item"><a href="usuario_admin_localidades.html"><i class="app-menu__icon fa fa-file-text fa-lg fa-fw"></i>Localidades</a></li>
+                            <li class="breadcrumb-item"><a href="usuario_admin_oficinas.html"><i class="app-menu__icon fa fa-file-text fa-lg fa-fw"></i>Oficinas</a></li>
+                            <a class="breadcrumb-item rounded" aria-label="PDF" href="pdf/MANUAL-DE-USUARIO-SISCOS.pdf" target="_blank"><i class="icon fa fa-file-pdf-o fa-lg fa-fw"></i></a>
+                            <div class="dropdown">
+                                <a class="dropbtn breadcrumb-item rounded"><i class="icon fa fa-font fa-lg fa-fw"></i></a>
+                                <div class="dropdown-content">
+                                    <a href="#" class="aumentarFont">A+</a>
+                                    <a href="#" class="disminuirFont">A-</a>
+                                    <a href="#" class="resetearFont">Normal</a>
+                                </div>
+                            </div>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-md-12">
+                        <div class="container-fluid bg-trans" style="padding-top:134px;margin-top: 40px">
+                            <h3 class="tile-title">7.2 Localidades</h3>
+                            <div class="bs-component">
+                                Se encuentra ubicado en opciones, permite al usuario crear localidades y asociarlas con departamentos. El usuario da clic sobre el módulo y le mostrará un formulario el cual requiere de ingresar el campo nombre, departamento y seleccionar si se va a encontrar
+                                en estado activo o no del nuevo registro localidad.
+                                <br>Es muy importante tener activos los registros que se hacen para que puedan tener movimientos más adelante si se necesitan con otros módulos.
+                            </div>
+                            <div class="w3-container w3-center">
+                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+
+                    <!--agregar-->
+                    <div id="localidadesagregar" class="col-md-12">
+                        <div class="container-fluid bg-trans" style="padding-top:134px;margin-top: 40px">
+                            <h3 class="tile-title">7.2.1 Agregar</h3>
+                            <div class="bs-component">
+                                Esta funcionalidad se encuentra ubicado en la barra horizontal superior, permite al usuario cuando ya tiene toda la información necesaria dar clic sobre el botón agregar y el registro se guarde correctamente y debe aparecer en el listado de localidades
+                                registrados en la aplicación. Requiere de un formulario solicitando información obligatoria en este caso es el campo nombre de la localidad.
+                            </div>
+                            <div class="w3-container w3-center">
+                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                            </div>
+                            <div class="bs-component">
+                                Dar clic en el botón agregar y se guarde correctamente el registro.
+                            </div>
+                            <div class="w3-container w3-center">
+                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <!--fin agregar-->
+
+                    <!--editar-->
+                    <div id="localidadeseditar" class="col-md-12">
+                        <div class="container-fluid bg-trans" style="padding-top:134px;margin-top: 40px">
+                            <h3 class="tile-title">7.2.2 Editar</h3>
+                            <div class="bs-component">
+                                Esta funcionalidad se encuentra ubicado en la barra horizontal, permite al usuario poder seleccionar un registro existen del listado de localidades, dar clic sobre el botón y hacerle modificación al registro.
+                            </div>
+                            <div class="w3-container w3-center">
+                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                            </div>
+                            <div class="bs-component">
+                                Seguidamente se escoge el campo que se va editar en este caso el nombre.
+                            </div>
+                            <div class="w3-container w3-center">
+                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                            </div>
+                            <div class="bs-component">
+                                Posteriormente dar clic en el botón editar y los cambios serán actualizados en la base de datos en el listado de localidades ya debe aparecer el nombre Bosco.
+                            </div>
+                            <div class="w3-container w3-center">
+                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <!--fin editar-->
+
+                    <!--eliminar-->
+                    <div id="localidadeseliminar" class="col-md-12">
+                        <div class="container-fluid bg-trans" style="padding-top:134px;margin-top: 40px">
+                            <h3 class="tile-title">7.2.3 Eliminar</h3>
+                            <div class="bs-component">
+                                Esta funcionalidad se encuentra ubicado en la barra horizontal, permite al usuario eliminar localidad que no le existan movimientos de lo contrario le mostrará un mensaje de error y no dejará eliminar el registro. Porque localidades va asociado a departamento
+                                es decir mientras que a ese departamento tenga asociados varias localidades no se puede eliminar la localidad.
+                            </div>
+                            <div class="w3-container w3-center">
+                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                            </div>
+                            <div class="bs-component">
+                                Clic en el botón eliminar y se visualizará el formulario de localidades del registro seleccionado con otros 2 botones para seguir el proceso eliminación o el proceso de cancelar esta funcionalidad.
+                            </div>
+                            <div class="w3-container w3-center">
+                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                            </div>
+                            <div class="bs-component">
+                                En este caso permite eliminar el registro porque la localidad la paz no le existen movimientos dentro del aplicativo. El usuario visualizará que el registro no aparece en el listado de localidades registradas en el aplicativo.
+                            </div>
+                            <div class="w3-container w3-center">
+                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                            </div>
+                        </div>
+                        <hr>
+                    </div>
+                    <!--fin eliminar-->
+
+                </div>
+                <!--fin row-->
+            </main>
+        </div>
+        <!--fin row flex-->
+    </div>
+    <!--fin container fluid-->
+    <a href="usuario_admin_departamento.html" class=" navigation navigation-prev " aria-label="Previous page "><i class="fa fa-angle-left "></i></a>
+    <a href="usuario_admin_oficinas.html" class="navigation navigation-next " aria-label="Next page "><i class="fa fa-angle-right "></i></a>
+
+    <!-- JavaScript Colocado al final del documento para que las páginas se carguen más rápido -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')
+    </script>
+    <!--iconos version fontawesome 5.8.1-->
+    <link rel="stylesheet " href="https://use.fontawesome.com/releases/v5.8.1/css/all.css " integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf " crossorigin="anonymous ">
+    <!-- Essential javascripts for application to work-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- The javascript plugin to display page loading on top-->
+    <script src="js/plugins/pace.min.js"></script>
+    <!-- Page specific javascripts-->
+    <script type="text/javascript" src="js/plugins/chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Page specific javascripts-->
+    <script>
+        $('.bs-component [data-toggle="popover"]').popover();
+        $('.bs-component [data-toggle="tooltip"]').tooltip();
+    </script>
+
+    <!--scrooll efecto smooth para el id-->
+    <script>
+        function myFunction() {
+            document.documentElement.style.scrollBehavior = "smooth";
+        }
+    </script>
+
+    <!--impedir que copien el codigo de la pagina-->
+    <script language="Javascript">
+        function disableselect(e) {
+            return false
+        }
+
+        function reEnable() {
+            return true
+        }
+        document.onselectstart = new Function("return false")
+        if (window.sidebar) {
+            document.onmousedown = disableselect
+            document.onclick = reEnable
+        }
+        // End -->
+    </script>
+
+</body>
+<!--para inhabilitar el boton derecho en la pagina-->
+<script language=JavaScript>
+    function right(e) {
+        if (navigator.appName == 'Netscape' && (e.which == 3 || e.which == 2)) {
+            alert("Esta pagina es privada.");
+            return false;
+        } else if (navigator.appName == 'Microsoft Internet Explorer' &&
+            (event.button == 2 || event.button == 3)) {
+            alert("Esta pagina es privada.");
+            return false;
+        }
+        return true;
+    }
+    document.onmousedown = right;
+    if (document.layers) window.captureEvents(Event.MOUSEDOWN);
+    window.onmousedown = right;
+</script>
+
+</html>
