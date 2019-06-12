@@ -16247,7 +16247,7 @@ i .fa-spin {
 
 @media (max-width:1920px) {
     .breadcrumb {
-        margin-left: -16px;
+        margin-left: 30px;
         margin-right: -56px;
     }
 }
