@@ -1298,6 +1298,12 @@ pre code {
         max-width: 100%;
         text-align: justify;
         font-size: 1.3rem;
+        padding-right: 234px;
+        padding-left: 247px;
+        margin-right: 57px;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
     }
     .order-md-first {
         -webkit-box-ordinal-group: 0;
@@ -16071,12 +16077,12 @@ i .fa-spin {
         position: fixed;
         right: -39px;
         z-index: 1;
-        top: 110px;
-        margin-left: 17px;
-        margin-right: 29px;
+        top: 230px;
+        margin-left: 30px;
+        margin-right: 93px;
         max-width: 50%;
         padding: 3px;
-        padding-top: 270px;
+        padding-top: 0px;
     }
 }
 
@@ -16160,12 +16166,12 @@ i .fa-spin {
 .navigation.navigation-prev {
     position: fixed;
     z-index: 1;
-    top: 0;
+    top: 230px;
     left: -28px;
-    margin-left: 280px;
-    margin-right: 40px;
+    margin-left: 365px;
+    margin-right: 66px;
     max-width: 50%;
-    padding-top: 374px;
+    padding-top: 0px;
 }
 
 .sidebar-mini.sidenav-toggled .navigation.navigation-prev {
