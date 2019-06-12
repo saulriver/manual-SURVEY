@@ -16011,6 +16011,7 @@ i .fa-spin {
     margin-left: 27px;
     margin-right: 36px;
     max-width: 50%;
+    padding-top: 378px;
 }
 
 .sidebar-mini.sidenav-toggled .navigation.navigation-next {
@@ -16105,6 +16106,7 @@ i .fa-spin {
         max-width: 50%;
         padding-right: 0px;
         padding-left: 3px;
+        padding-top: 388px;
     }
 }
 
@@ -16158,10 +16160,11 @@ i .fa-spin {
     position: fixed;
     z-index: 1;
     top: 0;
-    left: -48px;
+    left: -28px;
     margin-left: 280px;
     margin-right: 40px;
     max-width: 50%;
+    padding-top: 388px;
 }
 
 .sidebar-mini.sidenav-toggled .navigation.navigation-prev {
@@ -16247,6 +16250,12 @@ i .fa-spin {
         margin-left: -56px;
         margin-right: -56px;
     }
+}
+
+.app-sidebar .navigation.navigation-prev {
+    margin-left: 34px;
+    margin-right: 58px;
+    left: -43px;
 }
 
 
