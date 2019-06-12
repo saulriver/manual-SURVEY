@@ -1298,6 +1298,11 @@ pre code {
         max-width: 100%;
         text-align: justify;
         font-size: 1.3rem;
+        padding-right: 234px;
+        padding-left: 247px;
+        margin-right: 57px;
+        position: relative;
+        min-height: 1px;
     }
     .order-md-first {
         -webkit-box-ordinal-group: 0;
