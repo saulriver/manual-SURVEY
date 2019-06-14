@@ -5218,6 +5218,8 @@ input[type="button"].btn-block {
     position: fixed;
     z-index: 1;
     margin-top: -8px;
+    right: 167px;
+    left: 372px;
 }
 
 .breadcrumb-item+.breadcrumb-item {
@@ -16250,6 +16252,8 @@ i .fa-spin {
     .breadcrumb {
         margin-left: -16px;
         margin-right: -56px;
+        right: 167px;
+        left: 372px;
     }
 }
 
@@ -16257,6 +16261,8 @@ i .fa-spin {
     .breadcrumb {
         margin-left: -14px;
         margin-right: -56px;
+        right: 167px;
+        left: 372px;
     }
 }
 
@@ -16264,6 +16270,8 @@ i .fa-spin {
     .breadcrumb {
         margin-left: -56px;
         margin-right: -56px;
+        right: 167px;
+        left: 372px;
     }
 }
 
