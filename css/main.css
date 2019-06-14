@@ -452,6 +452,7 @@ h2,
 h3,
 .h3 {
     font-size: 1.53125rem;
+    padding-top: 103px;
 }
 
 h4,
@@ -499,10 +500,12 @@ h6,
 }
 
 hr {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 7rem;
     border: 0;
-    border-top: 4px solid rgba(0, 0, 0, 0.1);
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    margin-left: -54px;
+    margin-right: -142px;
 }
 
 small,
@@ -5207,12 +5210,14 @@ input[type="button"].btn-block {
     padding: 0.75rem 1rem;
     margin-bottom: 1rem;
     list-style: none;
-    background-color: rgba(231, 233, 235, 0.384);
     border-radius: 0.25rem;
     margin-left: -57px;
     margin-right: -56px;
     padding: 6px;
     text-align: justify;
+    position: fixed;
+    z-index: 1;
+    margin-top: -8px;
 }
 
 .breadcrumb-item+.breadcrumb-item {
@@ -14386,7 +14391,7 @@ be a descendant of the grid when it is being dragged.
 .app-menu__item:focus {
     background: #fdfdfd;
     text-decoration: none;
-    color: #fff;
+    color: rgb(173, 169, 169);
     border-radius: 12px;
     border-bottom: 1px solid #ffffff;
     font-weight: bold;
@@ -14407,6 +14412,7 @@ be a descendant of the grid when it is being dragged.
     flex: 1 1 auto;
     font-family: Arial;
     font-size: 1.09365rem;
+    margin-right: -19px;
 }
 
 .treeview.is-expanded [data-toggle='treeview'] {
@@ -14550,7 +14556,7 @@ be a descendant of the grid when it is being dragged.
         color: rgb(27, 65, 124);
         font-weight: bold;
         margin-left: 40px;
-        margin-right: 17px;
+        margin-right: -19px;
     }
     .sidebar-mini.sidenav-toggled .treeview-menu {
         position: absolute;
@@ -16074,13 +16080,15 @@ i .fa-spin {
 @media (max-width:1920px) {
     .navigation.navigation-next {
         position: fixed;
-        right: -39px;
+        right: 60px;
         z-index: 1;
-        top: 0;
+        top: 159px;
+        margin: auto;
         margin-left: 17px;
         margin-right: 29px;
         max-width: 50%;
         padding: 8px;
+        padding-top: 209px;
     }
 }
 
@@ -16089,13 +16097,14 @@ i .fa-spin {
         position: fixed;
         right: -38px;
         z-index: 1;
-        top: 0;
+        top: 159px;
         margin: auto;
         margin-left: 27px;
         margin-right: 44px;
         max-width: 50%;
         padding-right: 0px;
         padding-left: 3px;
+        padding-top: 209px;
     }
 }
 
@@ -16104,29 +16113,30 @@ i .fa-spin {
         position: fixed;
         right: -49px;
         z-index: 1;
-        top: 0;
+        top: 194px;
         margin: auto;
         margin-left: 27px;
         margin-right: 44px;
         max-width: 50%;
         padding-right: 0px;
         padding-left: 3px;
-        padding-top: 388px;
+        padding-top: 173px;
     }
 }
 
 @media (max-width:1280px) {
     .navigation.navigation-next {
         position: fixed;
-        right: -55px;
+        right: -36px;
         z-index: 1;
-        top: 0;
+        top: 159px;
         margin: auto;
         margin-left: 27px;
         margin-right: 44px;
         max-width: 50%;
         padding-right: 0px;
         padding-left: 3px;
+        padding-top: 200px;
     }
 }
 
@@ -16164,12 +16174,12 @@ i .fa-spin {
 .navigation.navigation-prev {
     position: fixed;
     z-index: 1;
-    top: 0;
-    left: -28px;
-    margin-left: 280px;
+    top: 159px;
+    left: 18px;
+    margin-left: 332px;
     margin-right: 40px;
     max-width: 50%;
-    padding-top: 388px;
+    padding-top: 200px;
 }
 
 .sidebar-mini.sidenav-toggled .navigation.navigation-prev {
@@ -16236,16 +16246,16 @@ i .fa-spin {
     }
 }
 
-@media (max-width:1366px) {
+@media (max-width:1920px) {
     .breadcrumb {
-        margin-left: -57px;
+        margin-left: -16px;
         margin-right: -56px;
     }
 }
 
-@media (max-width:1920px) {
+@media (max-width:1366px) {
     .breadcrumb {
-        margin-left: -16px;
+        margin-left: -14px;
         margin-right: -56px;
     }
 }
@@ -16312,5 +16322,61 @@ section.normal {
 }
 
 .active1 {
-    color: #ffffff;
+    color: rgb(27, 65, 124);
+    font-weight: bold;
+}
+
+.col-md-12 .bg-trans {
+    margin-left: -67px;
+    margin-right: 12px;
+    padding-top: 91px;
+    width: 142%;
+}
+
+@media (max-width:1920px) {
+    .sidebar-mini.sidenav-toggled .col-md-12 .bg-trans {
+        margin-left: -174px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:1920px) {
+    .col-md-12 .bg-trans {
+        margin-left: 12px;
+        margin-right: 12px;
+        width: 100%;
+        padding-top: 91px;
+    }
+}
+
+@media (max-width:1366px) {
+    .sidebar-mini.sidenav-toggled .col-md-12 .bg-trans {
+        margin-left: -159px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width:1366px) {
+    .col-md-12 .bg-trans {
+        margin-left: -67px;
+        margin-right: 12px;
+        padding-top: 91px;
+        width: 142%;
+    }
+}
+
+@media (max-width:360px) {
+    .sidebar-mini.sidenav-toggled .col-md-12 .bg-trans {
+        margin-left: 55px;
+        margin-right: 55px;
+        width: 142%;
+    }
+}
+
+@media (max-width:360px) {
+    .col-md-12 .bg-trans {
+        margin-left: 12px;
+        margin-right: 12px;
+        padding-top: 91px;
+    }
 }
