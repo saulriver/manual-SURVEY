@@ -115,3 +115,7 @@ function handlePagination(e) {
     var url = $(this).attr("href ");
     if (url) handleNavigation(url, true)
 }
+/*==============================mensaje de bienvenida==================================================*/
+function cargar_pagina() { alert("Bienvenidos!"); }
+
+/*==============================para no recargar la pagina==================================================*/
