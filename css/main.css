@@ -180,7 +180,7 @@ b {}
     font-family: 'Montserrat';
     background-color: #f2f2f2;
     border-radius: 4px;
-    border-left: 6px solid gray;
+    border-left: 6px solid rgb(27, 65, 124);
     background-color: #e9ecef;
     margin-block: 12px;
     border-right: 22px solid #e9ecef;
@@ -509,8 +509,18 @@ hr {
     margin-bottom: 7rem;
     border: 0;
     border-top: 2px solid rgba(0, 0, 0, 0.1);
-    margin-left: -78px;
-    margin-right: -74px;
+}
+
+@media (max-width:1280px) {
+    .sidebar-mini.sidenav-toggled hr {
+        margin-top: 5rem;
+        margin-bottom: 7rem;
+        border: 0;
+        border-top: 2px solid rgba(0, 0, 0, 0.1);
+        margin-left: -193px;
+        margin-right: 0;
+        width: 150%;
+    }
 }
 
 small,
@@ -14108,7 +14118,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 .app-sidebar__toggle {
-    padding: 0 15px;
+    padding: 4px 15px;
     font-family: fontAwesome;
     color: #fff;
     line-height: 2.4;
@@ -14117,6 +14127,8 @@ be a descendant of the grid when it is being dragged.
     transition: background-color 0.3s ease;
     margin-right: 1318px;
     margin-left: -261px;
+    background-color: rgb(27, 65, 124);
+    border-radius: 12px;
 }
 
 @media (max-width: 767px) {
@@ -14124,6 +14136,7 @@ be a descendant of the grid when it is being dragged.
         -webkit-box-ordinal-group: 0;
         -ms-flex-order: -1;
         order: -1;
+        margin-left: auto;
     }
 }
 
@@ -16011,6 +16024,12 @@ be a descendant of the grid when it is being dragged.
     margin-top: -188px;
 }
 
+@media (max-width:1920px) {
+    .fa-angle-right {
+        margin-top: -381px;
+    }
+}
+
 @media (max-width:1550px) {
     .fa-angle-right {
         margin-top: -378px;
@@ -16032,6 +16051,30 @@ be a descendant of the grid when it is being dragged.
 .fa-angle-left {
     width: 100%;
     margin-top: -188px;
+}
+
+@media (max-width:1920px) {
+    .fa-angle-left {
+        margin-top: -386px;
+    }
+}
+
+@media (max-width:1550px) {
+    .fa-angle-left {
+        margin-top: -190px;
+    }
+}
+
+@media (max-width:1366px) {
+    .fa-angle-left {
+        margin-top: -185px;
+    }
+}
+
+@media (max-width:1280px) {
+    .fa-angle-left {
+        margin-top: -191px;
+    }
 }
 
 i .fa-spin {
@@ -16073,8 +16116,8 @@ i .fa-spin {
 
 @media (max-width:1550px) {
     .sidebar-mini.sidenav-toggled .navigation.navigation-next {
-        margin-left: 34px;
-        margin-right: 58px;
+        margin-left: 40px;
+        margin-right: 115px;
         right: -55px;
     }
 }
@@ -16116,10 +16159,10 @@ i .fa-spin {
         position: fixed;
         right: 60px;
         z-index: 1;
-        top: 159px;
+        top: 253px;
         margin: auto;
-        margin-left: 3px;
-        margin-right: -60px;
+        margin-left: 40px;
+        margin-right: 27px;
         max-width: 50%;
         padding: 6px;
         padding-top: 1px;
@@ -16131,10 +16174,10 @@ i .fa-spin {
         position: fixed;
         right: -38px;
         z-index: 1;
-        top: 159px;
+        top: 239px;
         margin: auto;
-        margin-left: 27px;
-        margin-right: 44px;
+        margin-left: 40px;
+        margin-right: 123px;
         max-width: 50%;
         padding-right: 0px;
         padding-left: 3px;
@@ -16147,7 +16190,7 @@ i .fa-spin {
         position: fixed;
         right: -49px;
         z-index: 1;
-        top: 157px;
+        top: 254px;
         margin: auto;
         margin-left: 41px;
         margin-right: 137px;
@@ -16163,10 +16206,10 @@ i .fa-spin {
         position: fixed;
         right: -36px;
         z-index: 1;
-        top: 159px;
+        top: 253px;
         margin: auto;
-        margin-left: 27px;
-        margin-right: 44px;
+        margin-left: 40px;
+        margin-right: 122px;
         max-width: 50%;
         padding-right: 0px;
         padding-left: 3px;
@@ -16193,7 +16236,7 @@ i .fa-spin {
 @media (max-width:360px) {
     .navigation.navigation-next {
         position: fixed;
-        top: auto;
+        top: 386px;
         display: inline-block;
         margin: auto;
         padding: 86px;
@@ -16208,7 +16251,8 @@ i .fa-spin {
 .navigation.navigation-prev {
     position: fixed;
     z-index: 1;
-    top: 159px;
+    top: /*159*/
+    253px;
     left: 18px;
     margin-left: 315px;
     margin-right: 40px;
@@ -16406,15 +16450,15 @@ section.normal {
 
 @media (max-width:1920px) {
     .sidebar-mini.sidenav-toggled .col-md-12 .bg-trans {
-        margin-left: -174px;
+        margin-left: 0px;
         margin-right: 0px;
     }
 }
 
 @media (max-width:1920px) {
     .col-md-12 .bg-trans {
-        margin-left: 12px;
-        margin-right: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
         width: 100%;
         padding-top: 91px;
     }
@@ -16436,6 +16480,14 @@ section.normal {
     }
 }
 
+@media (max-width:768px) {
+    .sidebar-mini.sidenav-toggled .col-md-12 .bg-trans {
+        margin-left: 55px;
+        margin-right: 55px;
+        width: 142%;
+    }
+}
+
 @media (max-width:360px) {
     .sidebar-mini.sidenav-toggled .col-md-12 .bg-trans {
         margin-left: 55px;
@@ -16446,8 +16498,342 @@ section.normal {
 
 @media (max-width:360px) {
     .col-md-12 .bg-trans {
-        margin-left: 12px;
-        margin-right: 12px;
+        position: relative;
+        width: 73%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
         padding-top: 91px;
+        margin-right: 0;
+        margin-left: 45px;
     }
 }
+
+
+/*=====================================css para imagenes==================================================================================*/
+
+
+/*este va en el div de la imagen
+<a href="#image-5"></a>
+este va en el html debajo del div de la imagen
+<div class="lb-overlay" id="image-5">
+<img src="imagenes/login01.1.png" class="w3-animate-zoom rounded" alt="image05" />
+<a href="#page" class="lb-close w3-animate-zoom rounded">Cerrar</a>
+</div>
+
+.lb-album {
+    width: 900px;
+    margin: 0 auto;
+    font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+}
+
+.lb-album li {
+    float: left;
+    margin: 5px;
+    position: relative;
+}
+
+.lb-album li>a,
+.lb-album li>a img {
+    display: block;
+}
+
+.lb-album li>a {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    padding: 10px;
+    background: #f1d2c2;
+    -webkit-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158, 111, 86, 0.3) inset;
+    -moz-box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158, 111, 86, 0.3) inset;
+    box-shadow: 1px 1px 2px #fff, 1px 1px 2px rgba(158, 111, 86, 0.3) inset;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.lb-album li>a span {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 10px;
+    left: 10px;
+    text-align: center;
+    line-height: 150px;
+    color: rgba(27, 54, 81, 0.8);
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+    font-size: 24px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* internet explorer */
+
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+
+/*IE8 colocar el asterisco y el slash para cerrar
+    background: rgb(241, 210, 194);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(241, 210, 194, 1) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0.56)), color-stop(100%, rgba(241, 210, 194, 1)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(241, 210, 194, 1) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(241, 210, 194, 1) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(241, 210, 194, 1) 100%);
+    background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgba(241, 210, 194, 1) 100%);
+    -webkit-transition: opacity 0.3s linear;
+    -moz-transition: opacity 0.3s linear;
+    -o-transition: opacity 0.3s linear;
+    -ms-transition: opacity 0.3s linear;
+    transition: opacity 0.3s linear;
+}
+
+.lb-album li>a:hover span {
+    opacity: 1;
+    filter: alpha(opacity=99);
+    /* internet explorer */
+
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+
+/*IE8
+}
+
+.lb-overlay {
+    width: 0px;
+    height: 0px;
+    position: fixed;
+    overflow: hidden;
+    left: 0px;
+    top: 0px;
+    padding: 0px;
+    z-index: 99;
+    text-align: center;
+    background: rgb(83, 113, 196);
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgb(83, 113, 196) 100%);
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(255, 255, 255, 0.56)), color-stop(100%, rgb(83, 113, 196)));
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgb(83, 113, 196) 100%);
+    background: -o-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgb(83, 113, 196) 100%);
+    background: -ms-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgb(83, 113, 196) 100%);
+    background: radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0.56) 0%, rgb(83, 113, 196) 100%);
+}
+
+.lb-overlay>div {
+    position: relative;
+    color: rgba(27, 54, 81, 0.8);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    /* internet explorer */
+
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=0)";
+
+/*IE8
+    width: 550px;
+    margin: 10px auto 0px auto;
+    text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+    -webkit-transition: opacity 0.3s linear 1.3s;
+    -moz-transition: opacity 0.3s linear 1.3s;
+    -o-transition: opacity 0.3s linear 1.3s;
+    -ms-transition: opacity 0.3s linear 1.3s;
+    transition: opacity 0.3s linear 1.3s;
+}
+
+.lb-overlay div h3,
+.lb-overlay div p {
+    padding: 0px 20px;
+    width: 200px;
+    height: 60px;
+}
+
+.lb-overlay div h3 {
+    font-size: 36px;
+    float: left;
+    text-align: right;
+    border-right: 1px solid rgba(27, 54, 81, 0.4);
+}
+
+.lb-overlay div h3 span,
+.lb-overlay div p {
+    font-size: 16px;
+    font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+    font-style: italic;
+}
+
+.lb-overlay div h3 span {
+    display: block;
+    line-height: 6px;
+}
+
+.lb-overlay div p {
+    text-align: left;
+    float: left;
+    width: 260px;
+}
+
+.lb-overlay a.lb-close {
+    background: rgba(27, 54, 81, 0.8);
+    z-index: auto;
+    color: #fff;
+    position: absolute;
+    top: 242px;
+    left: 50%;
+    font-size: 22px;
+    line-height: 44px;
+    text-align: center;
+    width: 69px;
+    height: 38px;
+    overflow: hidden;
+    margin-left: -25px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+@media (max-width:1920px) {
+    .lb-overlay img {
+        max-height: 55%;
+        position: relative;
+        -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+        margin-top: 249px;
+        width: 100%;
+    }
+}
+
+@media (max-width:1550px) {
+    .lb-overlay img {
+        max-height: 52%;
+        position: relative;
+        -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+        margin-top: 249px;
+    }
+}
+
+@media (max-width:1366px) {
+    .lb-overlay img {
+        max-height: 131%;
+        position: relative;
+        -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+        margin-top: -17px;
+    }
+}
+
+@media (max-width:1280px) {
+    .lb-overlay img {
+        max-height: 52%;
+        position: relative;
+        -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+        margin-top: 249px;
+        width: 117%;
+        margin-left: -91px;
+    }
+}
+
+@media (max-width:768px) {
+    .lb-overlay img {
+        max-height: 52%;
+        position: relative;
+        -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+        margin-top: 249px;
+    }
+}
+
+@media (max-width:360px) {
+    .lb-overlay img {
+        max-height: 52%;
+        position: relative;
+        -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+        box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.2);
+        margin-top: 249px;
+    }
+}
+
+.lb-overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+    padding: 80px 100px 120px 100px;
+}
+
+.lb-overlay:target a.lb-close,
+.lb-overlay:target>div {
+    opacity: 1;
+    filter: alpha(opacity=99);
+    /* internet explorer */
+
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+
+/*IE8
+}
+
+@-webkit-keyframes fadeInScale {
+    0% {
+        -webkit-transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeInScale {
+    0% {
+        -moz-transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeInScale {
+    0% {
+        -o-transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        -o-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeInScale {
+    0% {
+        -ms-transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        -ms-transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInScale {
+    0% {
+        transform: scale(0.6);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/* 
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
+	http://bricss.net/post/11230266445/css-hack-to-target-opera 
+
+
+x:-o-prefocus,
+.lb-overlay img {
+    height: 100%;
+}
+*/

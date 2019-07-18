@@ -169,11 +169,11 @@
             <main class="app-content" role="main">
                 <div class="app-title">
                     <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><i class="fa fa-home fa-lg" style="color:black"></i></li>
+                        <li class="breadcrumb-item"><i class="fa fa-home fa-lg" style="color:#033875"></i></li>
                         <li class="breadcrumb-item"><a href="usuario_admin.html#admin">7. Usuario administrador</a></li>
                         <li class="breadcrumb-item"><span class="active1">7.5. Usuarios</span></li>
-                        <li class="breadcrumb-item"><a href="usuario_operador.html#operador">8. Usuario operador</a></li>
-                        <li class="breadcrumb-item"><a aria-label="PDF" href="pdf/.pdf" target="_blank"><i class="icon fa fa-file-pdf-o fa-lg fa-fw"></i></a></li>&nbsp;&nbsp;&nbsp;
+                        <li class="breadcrumb-item"><a id="blink" href="usuario_operador.html#operador">8. Usuario operador</a></li>
+                        <li class="breadcrumb-item"><a aria-label="PDF" href="pdf/SURVEY SOFTWARE MANUAL.pdf" target="_blank"><i class="icon fa fa-file-pdf-o fa-lg fa-fw"></i></a></li>&nbsp;&nbsp;&nbsp;
                         <li><a href="#" onclick="window.print()"><i class="icon fa fa-print fa-lg fa-fw"></i></a></li>&nbsp;&nbsp;&nbsp;
                         <li><a href="#" class="aumentarFont"><i class="icon fa fa-search-plus fa-lg fa-fw"></i></a></li>&nbsp;&nbsp;&nbsp;
                         <li><a href="#" class="disminuirFont"><i class="icon fa fa-search-minus fa-lg fa-fw"></i></a></li>&nbsp;&nbsp;&nbsp;
@@ -192,7 +192,7 @@
                                 que los campo no pueden estar vacíos.
                             </div>
                             <div class="w3-container w3-center">
-                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                                <span><img src="imagenes/admin_usuarios.png" style="width:90%" class="w3-animate-zoom rounded"></span>
                             </div>
                         </div>
                         <hr>
@@ -207,15 +207,18 @@
                                 en la aplicación.
                             </div>
                             <div class="w3-container w3-center">
-                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                                <span><img src="imagenes/usuarios_agregar.png" style="width:90%" class="w3-animate-zoom rounded"></span>
                             </div>
                             <div class="bs-component">
                                 Clic en el botón agregar y el registro se guarda correctamente a la aplicación y debe aparecer el nuevo registro en el listado de usuarios.
-                                <br>
-                                <div class="nota">Nota: si un usuario no se encuentra activo no puede tener acceso a la aplicación, por eso es recomendable que lo seleccionen activo al menos que no se necesite para otros procesos.</div>
+                                <br><br>
+                                <div class="nota">
+                                    <i class="fa fa-sticky-note fa-lg fa-fw" aria-hidden="true"></i>Nota: si un usuario no se encuentra activo no puede tener acceso a la aplicación, por eso es recomendable que lo seleccionen activo al menos que no se
+                                    necesite para otros procesos.
+                                </div>
                             </div>
                             <div class="w3-container w3-center">
-                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                                <span><img src="imagenes/usuarios_agregar2.png" style="width:90%" class="w3-animate-zoom rounded"></span>
                             </div>
                         </div>
                         <hr>
@@ -231,19 +234,19 @@
                                 y sale inhabilitado no se puede editar solo los usuarios que le aparecen las funcionalidades habilitadas que pertenecen en esa cuenta.
                             </div>
                             <div class="w3-container w3-center">
-                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                                <span><img src="imagenes/usuarios_editar.png" style="width:90%" class="w3-animate-zoom rounded"></span>
                             </div>
                             <div class="bs-component">
                                 Posteriormente dar clic en el campo editar y se visualizará la información del usuario seleccionado del lisado registrado en el aplicativo.
                             </div>
                             <div class="w3-container w3-center">
-                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                                <span><img src="imagenes/usuarios_editar2.png" style="width:90%" class="w3-animate-zoom rounded"></span>
                             </div>
                             <div class="bs-component">
                                 Se visualizan 2 opciones de seguir con el proceso editar o de cancelar el usuario da clic donde crea conveniente en este caso editar y el registro se debe actualizar en la base de datos de la aplicación.
                             </div>
                             <div class="w3-container w3-center">
-                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                                <span><img src="imagenes/usuarios_editar3.png" style="width:90%" class="w3-animate-zoom rounded"></span>
                             </div>
                         </div>
                         <hr>
@@ -259,7 +262,7 @@
                                 rol que se requieren movimientos en ciertos módulos.
                             </div>
                             <div class="w3-container w3-center">
-                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                                <span><img src="imagenes/usuarios_eliminar.png" style="width:90%" class="w3-animate-zoom rounded"></span>
                             </div>
                             <div class="bs-component">
                                 Se pueden eliminar solo los usuarios que han sido creados como administrador, operador y que no le existan movimientos, es decir la entidad padre en este caso manager solo le aparece el campo restablecer contraseña y sale inhabilitado no se puede editar
@@ -268,13 +271,13 @@
                                 <br>Registro eliminado correctamente y la base de datos se actualizará automáticamente con el proceso realizado de la funcionalidad eliminar.
                             </div>
                             <div class="w3-container w3-center">
-                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                                <span><img src="imagenes/usuarios_eliminar2.png" style="width:90%" class="w3-animate-zoom rounded"></span>
                             </div>
                             <div class="bs-component">
                                 El usuario visualizará que el registro no aparece en el listado de usuarios registrados en el aplicativo. Cuando el usuario intente eliminar registro usuarios y existan movimientos a este registro mostrará mensaje de error.
                             </div>
                             <div class="w3-container w3-center">
-                                <span><img src="imagenes/validar.png" style="width:70%;" class="w3-animate-zoom rounded"></span>
+                                <span><img src="imagenes/usuarios_eliminar3.png" style="width:90%" class="w3-animate-zoom rounded"></span>
                             </div>
                         </div>
                         <hr>

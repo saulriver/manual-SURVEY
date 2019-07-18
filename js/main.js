@@ -118,4 +118,15 @@ function handlePagination(e) {
 /*==============================mensaje de bienvenida==================================================*/
 function cargar_pagina() { alert("Bienvenidos!"); }
 
-/*==============================para no recargar la pagina==================================================*/
+/*=================================texto parpadeante===============================================*/
+$(document).ready(function() {
+    window.setInterval(BlinkIt, 1300);
+    var color = "rgb(27, 65, 124)";
+
+    function BlinkIt() {
+        var blink = document.getElementById("blink");
+        color = (color == "#6c757d") ? "rgb(27, 65, 124)" : "#6c757d";
+        blink.style.color = color;
+        blink.style.fontWeight = "bold";
+    }
+});
