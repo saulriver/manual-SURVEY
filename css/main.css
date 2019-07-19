@@ -16462,7 +16462,8 @@ h4,
     h4,
     .espacio {
         font-size: 1.53125rem;
-        padding-top: 27px;
+        padding-top: 100px;
+        margin-top: -84px;
     }
 }
 
