@@ -16421,6 +16421,56 @@ h4,
     padding-top: 27px;
 }
 
+@media (max-width:1920px) {
+    h4,
+    .espacio {
+        font-size: 1.53125rem;
+        margin-top: -84px;
+    }
+}
+
+@media (max-width:1550px) {
+    h4,
+    .espacio {
+        font-size: 1.53125rem;
+        margin-top: -84px;
+    }
+}
+
+@media (max-width:1366px) {
+    h4,
+    .espacio {
+        font-size: 1.53125rem;
+        padding-top: 100px;
+        margin-top: -84px;
+    }
+}
+
+@media (max-width:1280px) {
+    h4,
+    .espacio {
+        font-size: 1.53125rem;
+        padding-top: 100px;
+        margin-top: -84px;
+    }
+}
+
+@media (max-width:768px) {
+    h4,
+    .espacio {
+        font-size: 1.53125rem;
+        padding-top: 27px;
+    }
+}
+
+@media (max-width:360px) {
+    h4,
+    .espacio {
+        font-size: 1.53125rem;
+        padding-top: 27px;
+    }
+}
+
 
 /*========================================para el aumento de la letra =========================================================================*/
 
