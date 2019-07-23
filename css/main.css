@@ -15983,6 +15983,23 @@ be a descendant of the grid when it is being dragged.
 
 /*========================================para la seleccion de clase =========================================================================*/
 
+@media (max-width:2560px) {
+    .navbar-nav {
+        position: -webkit-sticky;
+        position: fixed;
+        top: 4rem;
+        height: calc(100vh - 4rem);
+        overflow-y: auto;
+        background-color: rgb(255, 255, 255);
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: justify;
+        margin-left: 150px;
+    }
+}
+
 .navigation {
     top: 50px;
     bottom: 0;
@@ -16117,6 +16134,13 @@ i .fa-spin {
     margin-right: 55px;
 }
 
+@media (max-width:2560px) {
+    .sidebar-mini.sidenav-toggled .navigation.navigation-next {
+        margin-left: 55px;
+        margin-right: 50px;
+    }
+}
+
 @media (max-width:1920px) {
     .sidebar-mini.sidenav-toggled .navigation.navigation-next {
         margin-left: 55px;
@@ -16161,6 +16185,19 @@ i .fa-spin {
     .sidebar-mini.sidenav-toggled .navigation.navigation-next {
         margin-left: 55px;
         margin-right: 55px;
+    }
+}
+
+@media (max-width:2560px) {
+    .navigation.navigation-next {
+        position: fixed;
+        right: 365px;
+        z-index: 1;
+        top: 642px;
+        margin-left: 17px;
+        margin-right: 36px;
+        max-width: 50%;
+        padding: 8px;
     }
 }
 
@@ -16275,10 +16312,24 @@ i .fa-spin {
     margin-right: 55px;
 }
 
+@media (max-width:2560px) {
+    .sidebar-mini.sidenav-toggled .navigation.navigation-prev {
+        margin-left: -251px;
+        margin-right: 0;
+    }
+}
+
 @media (max-width:1920px) {
     .sidebar-mini.sidenav-toggled .navigation.navigation-prev {
         margin-left: 35px;
         margin-right: 55px;
+    }
+}
+
+@media (max-width:1550px) {
+    .sidebar-mini.sidenav-toggled .navigation.navigation-prev {
+        margin-left: -251px;
+        margin-right: 0;
     }
 }
 
@@ -16301,6 +16352,34 @@ i .fa-spin {
     .sidebar-mini.sidenav-toggled .navigation.navigation-prev {
         margin-left: 55px;
         margin-right: 55px;
+    }
+}
+
+@media (max-width:2560px) {
+    .navigation.navigation-prev {
+        position: fixed;
+        left: 250px;
+        z-index: 1;
+        top: 642px;
+        margin-left: 17px;
+        margin-right: 29px;
+        max-width: 50%;
+        padding: 8px;
+    }
+}
+
+@media (max-width:1550px) {
+    .navigation.navigation-prev {
+        position: fixed;
+        left: 239px;
+        z-index: 1;
+        top: 200px;
+        margin: auto;
+        margin-left: 27px;
+        margin-right: 44px;
+        max-width: 50%;
+        padding-right: 0px;
+        padding-left: 3px;
     }
 }
 
