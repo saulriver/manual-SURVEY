@@ -16044,14 +16044,14 @@ be a descendant of the grid when it is being dragged.
 
 @media (max-width:1920px) {
     .fa-angle-right {
-        margin-top: -381px;
+        margin-top: -57px;
         color: rgb(27, 65, 124);
     }
 }
 
 @media (max-width:1550px) {
     .fa-angle-right {
-        margin-top: -378px;
+        margin-top: -160px;
         color: rgb(27, 65, 124);
     }
 }
@@ -16065,7 +16065,7 @@ be a descendant of the grid when it is being dragged.
 
 @media (max-width:1280px) {
     .fa-angle-right {
-        margin-top: -381px;
+        margin-top: -182px;
         color: rgb(27, 65, 124);
     }
 }
@@ -16078,14 +16078,14 @@ be a descendant of the grid when it is being dragged.
 
 @media (max-width:1920px) {
     .fa-angle-left {
-        margin-top: -386px;
+        margin-top: -73px;
         color: rgb(27, 65, 124);
     }
 }
 
 @media (max-width:1550px) {
     .fa-angle-left {
-        margin-top: -190px;
+        margin-top: 34px;
         color: rgb(27, 65, 124);
     }
 }
@@ -16145,6 +16145,7 @@ i .fa-spin {
     .sidebar-mini.sidenav-toggled .navigation.navigation-next {
         margin-left: 55px;
         margin-right: 35px;
+        top: 200px;
     }
 }
 
@@ -16153,6 +16154,7 @@ i .fa-spin {
         margin-left: 40px;
         margin-right: 115px;
         right: -55px;
+        margin-top: 0px;
     }
 }
 
@@ -16161,6 +16163,7 @@ i .fa-spin {
         margin-left: 34px;
         margin-right: 58px;
         right: -53px;
+        top: 200px;
     }
 }
 
@@ -16206,7 +16209,7 @@ i .fa-spin {
         position: fixed;
         right: 60px;
         z-index: 1;
-        top: 253px;
+        top: 200px;
         margin: auto;
         margin-left: 40px;
         margin-right: 27px;
@@ -16221,7 +16224,7 @@ i .fa-spin {
         position: fixed;
         right: -38px;
         z-index: 1;
-        top: 239px;
+        top: 200px;
         margin: auto;
         margin-left: 40px;
         margin-right: 123px;
@@ -16237,7 +16240,7 @@ i .fa-spin {
         position: fixed;
         right: -49px;
         z-index: 1;
-        top: 254px;
+        top: 200px;
         margin: auto;
         margin-left: 41px;
         margin-right: 137px;
@@ -16321,8 +16324,9 @@ i .fa-spin {
 
 @media (max-width:1920px) {
     .sidebar-mini.sidenav-toggled .navigation.navigation-prev {
-        margin-left: 35px;
-        margin-right: 55px;
+        margin-left: -150px;
+        margin-right: 140px;
+        top: 200px;
     }
 }
 
@@ -16334,6 +16338,15 @@ i .fa-spin {
 }
 
 @media (max-width:1366px) {
+    .sidebar-mini.sidenav-toggled .navigation.navigation-prev {
+        margin-left: 34px;
+        margin-right: 58px;
+        left: -43px;
+        top: 200px;
+    }
+}
+
+@media (max-width:1280px) {
     .sidebar-mini.sidenav-toggled .navigation.navigation-prev {
         margin-left: 34px;
         margin-right: 58px;
@@ -16360,7 +16373,7 @@ i .fa-spin {
         position: fixed;
         left: 250px;
         z-index: 1;
-        top: 642px;
+        top: 200px;
         margin-left: 17px;
         margin-right: 29px;
         max-width: 50%;
@@ -16380,6 +16393,38 @@ i .fa-spin {
         max-width: 50%;
         padding-right: 0px;
         padding-left: 3px;
+    }
+}
+
+@media (max-width:1366px) {
+    .navigation.navigation-prev {
+        position: fixed;
+        left: 239px;
+        z-index: 1;
+        top: 200px;
+        margin: auto;
+        margin-left: 41px;
+        margin-right: 137px;
+        max-width: 50%;
+        padding-right: 0px;
+        padding-left: 3px;
+        padding-top: 1px;
+    }
+}
+
+@media (max-width:1280px) {
+    .navigation.navigation-prev {
+        position: fixed;
+        left: 239px;
+        z-index: 1;
+        top: 300px;
+        margin: auto;
+        margin-left: 40px;
+        margin-right: 122px;
+        max-width: 50%;
+        padding-right: 0px;
+        padding-left: 3px;
+        padding-top: 200px;
     }
 }
 
