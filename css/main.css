@@ -15927,6 +15927,19 @@ be a descendant of the grid when it is being dragged.
     line-height: 2.1rem;
 }
 
+@media (max-width:2560px) {
+    .bs-component {
+        margin: 0;
+        padding: -1px 15px;
+        background: #fff;
+        border-radius: 2px;
+        font-size: 1.1rem;
+        text-align: justify;
+        line-height: 2.1rem;
+        max-width: 77%;
+    }
+}
+
 .text {
     text-align: justify;
     margin-top: 0;
@@ -16042,6 +16055,13 @@ be a descendant of the grid when it is being dragged.
     color: rgb(27, 65, 124);
 }
 
+@media (max-width:2560px) {
+    .fa-angle-right {
+        margin-top: 71px;
+        color: rgb(27, 65, 124);
+    }
+}
+
 @media (max-width:1920px) {
     .fa-angle-right {
         margin-top: -57px;
@@ -16074,6 +16094,13 @@ be a descendant of the grid when it is being dragged.
     width: 100%;
     margin-top: -188px;
     color: rgb(27, 65, 124);
+}
+
+@media (max-width:2560px) {
+    .fa-angle-left {
+        margin-top: 71px;
+        color: rgb(27, 65, 124);
+    }
 }
 
 @media (max-width:1920px) {
@@ -16196,9 +16223,9 @@ i .fa-spin {
         position: fixed;
         right: 365px;
         z-index: 1;
-        top: 642px;
+        top: 200px;
         margin-left: 17px;
-        margin-right: 36px;
+        margin-right: -339px;
         max-width: 50%;
         padding: 8px;
     }
@@ -16527,6 +16554,16 @@ i .fa-spin {
 
 .w3-animate-zoom {
     animation: animatezoom 0s;
+}
+
+@media (max-width:2560px) {
+    img,
+    .w3-animate-zoom {
+        animation: animatezoom 0s;
+        max-width: 70%;
+        margin-left: 0px;
+        margin-right: 580px;
+    }
 }
 
 .app-menu__label,
@@ -17034,3 +17071,5 @@ x:-o-prefocus,
     height: 100%;
 }
 */
+
+*/ */
