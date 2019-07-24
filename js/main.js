@@ -45,7 +45,7 @@ $(document).ready(function() {
 
         var sizeFuenteActual = donde.css('font-size');
         var sizeFuenteActualNum = parseFloat(sizeFuenteActual, 10);
-        var sizeFuenteNuevo = sizeFuenteActualNum = 24;
+        var sizeFuenteNuevo = sizeFuenteActualNum = 25;
         donde.css('font-size', sizeFuenteNuevo);
         return false;
     });
