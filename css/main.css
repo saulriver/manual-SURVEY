@@ -16161,7 +16161,7 @@ be a descendant of the grid when it is being dragged.
             max-width: 50%;
             padding-right: 0px;
             padding-left: 35px;
-            padding-top: 209px;
+            padding-top: 196px;
         }
     }
     
@@ -16323,7 +16323,7 @@ be a descendant of the grid when it is being dragged.
             margin-left: 96px;
             margin-right: 63px;
             max-width: 50%;
-            padding: 0px;
+            padding-top: 17px;
             padding-right: 56px;
         }
     }
@@ -16340,6 +16340,7 @@ be a descendant of the grid when it is being dragged.
             max-width: 50%;
             padding-right: 56px;
             padding-left: 0px;
+            padding-top: 0px;
         }
     }
     
@@ -16350,12 +16351,12 @@ be a descendant of the grid when it is being dragged.
             z-index: 1;
             top: 200px;
             margin: auto;
-            margin-left: -16px;
+            margin-left: 16px;
             margin-right: -1px;
             max-width: 50%;
-            padding-right: 0px;
-            padding-left: 3px;
-            padding-top: 1px;
+            padding-right: 58px;
+            padding-left: 0px;
+            padding-top: 9px;
         }
     }
     
@@ -16371,6 +16372,7 @@ be a descendant of the grid when it is being dragged.
             max-width: 50%;
             padding-right: 52px;
             padding-left: 0px;
+            padding-top: 53px;
         }
     }
     
