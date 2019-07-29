@@ -130,3 +130,14 @@ $(document).ready(function() {
         blink.style.fontWeight = "bold";
     }
 });
+
+$(document).ready(function() {
+    window.setInterval(BlinkIt, 1300);
+    var color = "rgb(27, 65, 124)";
+
+    function BlinkIt() {
+        var blink = document.getElementById("blink1");
+        color = (color == "#6c757d") ? "rgb(27, 65, 124)" : "#6c757d";
+        blink.style.color = color;
+    }
+});
