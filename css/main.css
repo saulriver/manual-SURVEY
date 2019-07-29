@@ -16074,7 +16074,7 @@ be a descendant of the grid when it is being dragged.
     @media (max-width:1920px) {
         .sidebar-mini.sidenav-toggled .navigation.navigation-next {
             margin-left: 35px;
-            margin-right: 17px;
+            margin-right: -328px;
             top: 200px;
         }
     }
